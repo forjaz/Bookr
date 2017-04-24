@@ -5,9 +5,9 @@
 
 // Placeholder Start / Empty
 
-var bookPlaceHolder1 = new Book("Please Search your Books", "", "", "", "https://images6.alphacoders.com/346/346199.jpg", []);
-var bookPlaceHolder2 = new Book("Please Search your Authors", "", "", "", "https://images5.alphacoders.com/419/419573.jpg", []);
-var bookPlaceHolder3 = new Book("Please Search your Genres", "", "", "", "http://wallpaper-gallery.net/images/wallpaper-books/wallpaper-books-10.jpg", []);
+var bookPlaceHolder1 = new Book("Please Search your Books", "Bookr is fun", "", "", "https://images6.alphacoders.com/346/346199.jpg", []);
+var bookPlaceHolder2 = new Book("Please Search your Authors", "Bookr is amazing", "", "", "https://images5.alphacoders.com/419/419573.jpg", []);
+var bookPlaceHolder3 = new Book("Please Search your Genres", "Bookr is cool", "", "", "http://wallpaper-gallery.net/images/wallpaper-books/wallpaper-books-10.jpg", []);
 
 
 // Books
