@@ -10,7 +10,7 @@ Bookr was created using HTML5 Bootstrap, CSS3 and Javascript JQuery, with code v
 ## Acessing the Website
 
 The website can be acessed by using the following URL:
-https://upacademybookr.herokuapp.com/Goncalo%20Forjaz%20(Bootstrap).html
+https://upacademybookr.herokuapp.com/index.html
 
 A change to index.html will soon follow.
 
