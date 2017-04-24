@@ -2,7 +2,7 @@
 
 body {
 	background: white;
-	font-family: 'coffeetea_demoregular', Arial, sans-serif;
+	font-family: 'coffeetea', Arial, sans-serif;
 }
 
 a:link {
@@ -35,7 +35,7 @@ a:focus {
 }
 
 #headertitle {
-	font-family: 'school_book_newregular', Arial, sans-serif;
+	font-family: 'schoolbook', Arial, sans-serif;
 	font-size: 60px;
 	text-shadow: 5px 5px #2d2d2d;
 }
@@ -92,8 +92,8 @@ a:focus {
 	color: #ffbb00;
 }
 
-.input-group-btn {
-	background-color: #ffbb00;
+.input-group {
+	margin-top: 4px;
 }
 
 .form-control {
@@ -154,7 +154,7 @@ a:focus {
 #descriptiondiv {
 	font-size: 26px;
 	text-align: justify;
-	height: 410px;
+	height: 210px;
 	overflow: hidden;
 }
 

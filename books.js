@@ -38,11 +38,34 @@ var book9 = new Book("The Hobbit", "J. R. R. Tolkien", "Bilbo Baggins lives a si
 
 var mainshelf = new Bookshelf();
 
+/*
+
 mainshelf.add(bookPlaceHolder1);
 mainshelf.add(bookPlaceHolder2);
 mainshelf.add(bookPlaceHolder3);
 
 mainshelf.init()
+
+*/
+
+mainshelf.add(book1);
+mainshelf.add(book2);
+mainshelf.add(book3);
+mainshelf.add(book4);
+mainshelf.add(book5);
+mainshelf.add(book6);
+mainshelf.add(book7);
+mainshelf.add(book8);
+mainshelf.add(book9);
+
+mainshelf.init();
+
+
+
+
+
+
+
 
 
 

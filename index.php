@@ -1,2 +1,2 @@
-<?php header( 'Location: /Goncalo Forjaz (Bootstrap).html'
+<?php header( 'Location: /index.html'
 	) ;  ?>
