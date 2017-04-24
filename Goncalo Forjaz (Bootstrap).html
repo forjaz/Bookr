@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Bookr</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" href="stylesheet2.css" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="Goncalo Forjaz (Bootstrap CSS).css">
+
+	</head>
+
+	<body>
+
+		<div class="container-fluid">
+
+			<div class="row">
+
+			<!-- header -->
+
+				 <div id="header" class="col-md-12">
+				 	<h1 id="headertitle">Bookr</h1>
+				 </div>
+
+				 <!-- navigation button -->
+
+				 <div id="nav" class="col-md-12">
+					 <ul class="nav nav-pills">
+					 <li role="presentation" class="active"><a href="#">Mais Populares</a></li>
+					  <li role="presentation"><a href="#">Loja</a></li>
+					  <li role="presentation"><a href="#">Sugestoes</a></li>
+
+					  <!-- Dropdown - Categorias Start -->
+
+							  <li class="dropdown">
+						          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias <span class="caret"></span></a>
+						          <ul class="dropdown-menu">
+
+						            <li><a href="#">Auto-ajuda</a></li>
+						            <li><a href="#">Aventura</a></li>
+						            <li><a href="#">Biografico</a></li>
+						            <li><a href="#">Cientifico</a></li>
+						            <li><a href="#">Contos</a></li>
+						            <li><a href="#">Cronicas</a></li>
+						            <li><a href="#">Fantasia</a></li>
+						            <li><a href="#">Ficcao Cientifica</a></li>
+						            <li><a href="#">Ficcao Historica</a></li>
+						            <li><a href="#">Horror</a></li>
+						            <li><a href="#">Infantis</a></li>
+						            <li><a href="#">Jogos</a></li>
+						            <li><a href="#">Manuais</a></li>
+						            <li><a href="#">Poesia</a></li>
+						            <li><a href="#">Politica</a></li>
+						            <li><a href="#">Romances</a></li>		
+
+						          </ul>
+					          </li>
+
+					          <!-- Dropdown - Categorias End -->
+
+			          <!-- Search Bar -->
+
+			         <li class="searchBox">
+				         <form class="navbar-form" role="search">
+					         <div class="input-group">
+						         <input type="text" class="form-control" placeholder="Search" id="inputText">
+						         <div class="input-group-btn">
+							         <button id="searchButton" class="btn btn-default" type="submit">
+							         	<i class="glyphicon glyphicon-search"></i>
+							         </button>
+						         </div>
+					         </div>
+				         </form>
+				     </li>
+
+				     <!-- Clear Dequeue Button -->
+
+				     <li id="clearBooks" role="presentation"><a href="#">Clear Books</a></li
+				     >
+			          <!-- Area Cliente -->
+
+					  <li role="presentation"><a href="#">
+					  	<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+					  		Area Cliente
+				  		</a></li>
+
+
+					</ul>
+				 </div>
+
+				 <!-- separador -->
+
+				 <div id="separadorheader" class="col-md-12"></div>
+
+				<!-- Book Row -->
+
+				<!-- Book1 -->
+
+				 <div id="book1" class="col-md-4">
+
+
+				 	<div id="background"></div>
+
+
+				 	<img src="" alt="" class="img-thumbnail"/>
+
+
+				 	<div id="titlediv" class="col-md-12">
+
+				 		<h2 class="title"></h2>
+
+				 	</div>
+
+
+				 	<div id="authordiv" class="col-md-12">
+
+				 		<h3 class="author"></h2>
+
+				 	</div>
+
+
+				 	<div id="descriptiondiv" class="col-md-12">
+
+				 		<p class="description"></p>
+
+				 	</div>
+
+
+				 	<div id="lermaisdiv" class="col-md-12">
+
+				 		<a href="" class="lermais">Ler mais</a>
+
+				 	</div>
+
+
+				 	<!-- Likes -->
+
+				 		<div id="likediv" class="col-md-12">
+
+				 			<button type="button" class="likebutton btn btn-primary btn-lg outline" onclick="">
+				 				<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+				 			</button>
+
+				 			<button type="button" class="dislikebutton btn btn-primary btn-lg outline" onclick="">
+				 				<span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+				 			</button>
+
+				 		</div>
+
+				 	<!-- Contadores -->
+
+				 	<div id="counterdiv" class="col-md-12">
+
+				 			<div class="likecounter well">0</div>
+
+				 			<div class="dislikecounter well">0</div>
+
+				 	</div>
+
+				 	<!-- Links -->
+
+				 	<div id="linksdiv" class="col-md-12">
+
+				 			<a class="wikipedia" href="">Wikipedia</a>
+
+				 			<a class="wook" href="">Wook</a>
+
+				 			<a class="amazon" href="">Amazon</a>
+
+				 			<a class="ebay" href="">Ebay</a>
+
+				 	</div>
+
+
+				 </div>
+
+				 <!-- Book2 -->
+
+				 
+				 <div id="book2" class="col-md-4">
+
+
+				 	<img src="" alt="" class="img-thumbnail"/>
+
+
+				 	<div id="titlediv" class="col-md-12">
+
+				 		<h2 class="title"></h2>
+
+				 	</div>
+
+
+				 	<div id="authordiv" class="col-md-12">
+
+				 		<h3 class="author"></h2>
+
+				 	</div>
+
+
+				 	<div id="descriptiondiv" class="col-md-12">
+
+				 		<p class="description"></p>
+
+				 	</div>
+
+
+				 	<div id="lermaisdiv" class="col-md-12">
+
+				 		<a href="" class="lermais">Ler mais</a>
+
+				 	</div>
+
+
+				 	<!-- Likes -->
+
+				 		<div id="likediv" class="col-md-12">
+
+				 			<button type="button" class="likebutton btn btn-primary btn-lg outline" onclick="">
+				 				<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+				 			</button>
+
+				 			<button type="button" class="dislikebutton btn btn-primary btn-lg outline" onclick="">
+				 				<span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+				 			</button>
+
+				 		</div>
+
+				 	<!-- Contadores -->
+
+				 	<div id="counterdiv" class="col-md-12">
+
+				 			<div class="likecounter well">0</div>
+
+				 			<div class="dislikecounter well">0</div>
+
+				 	</div>
+
+				 	<!-- Links -->
+
+				 	<div id="linksdiv" class="col-md-12">
+
+				 			<a class="wikipedia" href="">Wikipedia</a>
+
+				 			<a class="wook" href="">Wook</a>
+
+				 			<a class="amazon" href="">Amazon</a>
+
+				 			<a class="ebay" href="">Ebay</a>
+
+				 	</div>
+
+
+				 </div>
+
+				 <!-- Book3 -->
+
+				 <div id="book3" class="col-md-4">
+
+
+				 	<img src="" alt="" class="img-thumbnail"/>
+
+
+				 	<div id="titlediv" class="col-md-12">
+
+				 		<h2 class="title"></h2>
+
+				 	</div>
+
+
+				 	<div id="authordiv" class="col-md-12">
+
+				 		<h3 class="author"></h2>
+
+				 	</div>
+
+
+				 	<div id="descriptiondiv" class="col-md-12">
+
+				 		<p class="description"></p>
+
+				 	</div>
+
+
+				 	<div id="lermaisdiv" class="col-md-12">
+
+				 		<a href="" class="lermais">Ler mais</a>
+
+				 	</div>
+
+
+				 	<!-- Likes -->
+
+				 		<div id="likediv" class="col-md-12">
+
+				 			<button type="button" class="likebutton btn btn-primary btn-lg outline" onclick="">
+				 				<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+				 			</button>
+
+				 			<button type="button" class="dislikebutton btn btn-primary btn-lg outline" onclick="">
+				 				<span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+				 			</button>
+
+				 		</div>
+
+				 	<!-- Contadores -->
+
+				 	<div id="counterdiv" class="col-md-12">
+
+				 			<div class="likecounter well">0</div>
+
+				 			<div class="dislikecounter well">0</div>
+
+				 	</div>
+
+				 	<!-- Links -->
+
+				 	<div id="linksdiv" class="col-md-12">
+
+				 			<a class="wikipedia" href="">Wikipedia</a>
+
+				 			<a class="wook" href="">Wook</a>
+
+				 			<a class="amazon" href="">Amazon</a>
+
+				 			<a class="ebay" href="">Ebay</a>
+
+				 	</div>
+
+
+				 </div>
+				 
+
+				 <!-- End Placeholder Separator -->
+
+
+				 <div id="endplaceholder" class="col-md-12"></div>
+
+
+				 <!-- Footer -->
+
+
+				 <div id="footer" class="col-md-12">
+				 	<p>&copy Goncalo Forjaz 2017 - Up Academy</p>
+				 </div>
+
+			</div>
+
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<script src="underscore-min.js"></script>
+		
+		<script src="Goncalo Forjaz (Functions).js"></script>
+		<script src="Goncalo Forjaz (Books).js"></script>
+
+	</body>
+
+</html>

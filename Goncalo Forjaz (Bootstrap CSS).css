@@ -1,0 +1,282 @@
+  /* CSS */
+
+body {
+	background: white;
+	font-family: 'coffeetea_demoregular', Arial, sans-serif;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+a:focus {
+	outline: none;
+}
+
+
+#background {
+	position: fixed;
+    top: 0px;
+    left: 33%;
+    width: 33%;
+    height: 100%;
+    background-color: #cccccc;
+    z-index: -1;
+}
+
+#header {
+	color: #ffbb00;
+	background: #2d2d2d;
+}
+
+#headertitle {
+	font-family: 'school_book_newregular', Arial, sans-serif;
+	font-size: 60px;
+	text-shadow: 5px 5px #2d2d2d;
+}
+
+#nav {
+	padding: 0px;
+	background: white;
+}
+
+.nav > li > a {
+	padding: 10px 30px;
+}
+
+.nav-pills {
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #cccccc;
+}
+
+.nav-pills > li + li {
+	margin-left: 0px;
+}
+
+.nav-pills > li > a {
+	text-align: center;
+	width: 210px;
+	color: black;
+	border-radius: 0px;
+}
+
+.nav-pills > li.active > a {
+	font-weight: bold;
+	color: black;
+	background-color: #ffbb00;
+}
+
+.nav-pills > li.active > a:hover {
+	background-color: #474747;
+	color: #ffbb00;
+}
+
+.nav-pills > li > a:hover {
+	background-color: #474747;
+	color: #ffbb00;
+}
+
+.dropdown-menu {
+	font-size: 22px;
+	background-color: #eeeeee;
+}
+
+.dropdown-menu > li > a:hover {
+	background: #474747;
+	color: #ffbb00;
+}
+
+.input-group-btn {
+	background-color: #ffbb00;
+}
+
+.form-control {
+	height: 28px;
+}
+
+#searchButton {
+	padding: 3px 12px;
+}
+
+#separadorheader {
+	background: #2d2d2d;
+	height: 20px;
+}
+
+.img-thumbnail {
+	display: block;
+	margin: auto;
+	width: auto;
+	height: 500px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-color: black;
+	border-color: black;
+	border-radius: 20px;
+	padding: 2px;
+	box-shadow: -5px 5px 20px #474747;
+}
+
+
+#book1, #book2, #book3 {
+}
+
+#book4, #book5, #book6 {
+	display: none;
+}
+
+.h2, h2 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#titlediv {
+	height: 120px;
+	text-align: center;
+}
+
+#authordiv {
+	height: 80px;
+	font-style: italic;
+	text-align: center;
+}
+
+.h3, h3 {
+	font-size: 26px;
+}
+
+#descriptiondiv {
+	font-size: 26px;
+	text-align: justify;
+	height: 410px;
+	overflow: hidden;
+}
+
+#lermaisdiv {
+	text-align: right;
+	text-decoration: underline;
+	color: black;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+#likediv {
+	height: 80px;
+	font-size: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.likebutton, .dislikebutton {
+	margin: 0px 35px;
+}
+
+.glyphicon-thumbs-up {
+	color: green;
+	padding: 10px;
+}
+
+.glyphicon-thumbs-down {
+	color: red;
+	padding: 10px;
+}
+
+.btn-lg {
+	font-size: 20px;
+	border-radius: 50px;
+	box-shadow: 2px 2px 8px #474747;
+}
+
+.btn.outline {
+	background: #dddddd;
+	padding: 4px 8px;
+}
+
+.btn-primary.outline {
+	border: 4px solid #474747;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, 
+.btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	background: #474747;
+	color: #ffbb00;
+	border-color: #ffbb00;
+	outline: none;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #ffbb00;
+	color: #ffbb00;
+	box-shadow: none;
+	outline: none;
+}
+
+#counterdiv {
+	text-align: center;
+}
+
+.likecounter, .dislikecounter {
+	text-align: center;
+	display: inline-block;
+	padding: 5px 25px;
+	margin: 0px 37px;
+	border-radius: 50px;
+	box-shadow: 2px 2px 8px #474747;
+}
+
+
+#linksdiv {
+	text-align: center;
+	height: 90px;
+	padding: 40px 0px;
+}
+
+.wikipedia, .wook, .amazon, .ebay {
+	color: black;
+	text-decoration: underline;
+	padding: 0px 20px;
+	font-size: 20px;
+}
+
+#endplaceholder {
+	height: 1345px;
+	width: 100%;
+	display: none;
+}
+
+#footer {
+	border-top: 2px solid #1c1c1c;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #ffbb00;
+	background-color: #2d2d2d;
+}
+
+/* Web responsive design */
+
+@media (max-width: 992px) {
+
+	#header {
+		padding: 2px 0px;
+		text-align: center;
+
+	}
+
+	#nav {
+		text-align: center;
+}
+
+
+
+
+
+}
+
+
+
+
