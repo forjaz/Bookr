@@ -36,38 +36,47 @@ a:focus {
 
 #headertitle {
 	font-family: 'schoolbook', Arial, sans-serif;
-	font-size: 60px;
+	font-size: 48px;
 	text-shadow: 5px 5px #2d2d2d;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
 }
 
-#nav {
-	padding: 0px;
-	background: white;
+.row {
+	width: auto;
 }
 
-.nav > li > a {
-	padding: 10px 30px;
+#navDiv {
+	background-color: #cccccc;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	z-index: 2;
+
 }
 
 .nav-pills {
-	font-size: 25px;
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 20px;
 	font-weight: bold;
 	background-color: #cccccc;
+	color: black;
 }
 
-.nav-pills > li + li {
-	margin-left: 0px;
+.nav-pills > li {
+	float: none;
+	text-align: center;
 }
 
 .nav-pills > li > a {
-	text-align: center;
-	width: 210px;
-	color: black;
 	border-radius: 0px;
 }
 
 .nav-pills > li.active > a {
-	font-weight: bold;
 	color: black;
 	background-color: #ffbb00;
 }
@@ -83,7 +92,7 @@ a:focus {
 }
 
 .dropdown-menu {
-	font-size: 22px;
+	font-size: 20px;
 	background-color: #eeeeee;
 }
 
@@ -93,28 +102,73 @@ a:focus {
 }
 
 .input-group {
-	margin-top: 4px;
+	width: 100%;
+	text-align: right;
 }
 
-.form-control {
-	height: 28px;
+.searchBox {
+	display: block;
+	width: 100%;
+	margin-top: -8px;
+	z-index: 1;
+}
+
+.navbar-form {
+	width: 100%;
+	padding: 0px;
+}
+
+.navbar-form .input-group .input-group-btn {
+	width: 0px;
 }
 
 #searchButton {
-	padding: 3px 12px;
+	text-align: right;
+	border: 1px solid #ce9800;
+	background-image: none;
+	background-color: #ffbb00;
+	border-radius: 0px;
+}
+
+.form-control {
+	background-color: #474747;
+	border: 1px solid #474747;
+	border-radius: 0px;
+	height: 48px;
+}
+
+#searchButton.btn {
+	font-size: 14px;
+	margin-bottom: 2px;
+	padding: 14px 20px;
+}
+
+.btn-default {
+	text-shadow: 0px 0px 0 black;;
+}
+
+input.form-control {
+	color: white;
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
 }
 
 #separadorheader {
+	z-index: 3;
 	background: #2d2d2d;
-	height: 20px;
+	padding-top: 12px;
+	margin-top: -12px;
+	box-shadow: -5px 5px 20px #474747;
+
 }
 
 .img-thumbnail {
 	display: block;
 	margin: auto;
 	width: auto;
-	height: 500px;
-	margin-top: 30px;
+	height: 300px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 	background-color: black;
 	border-color: black;
@@ -123,79 +177,71 @@ a:focus {
 	box-shadow: -5px 5px 20px #474747;
 }
 
-
-#book1, #book2, #book3 {
-}
-
-#book4, #book5, #book6 {
-	display: none;
-}
-
 .h2, h2 {
-	font-size: 36px;
+	font-size: 26px;
 	font-weight: bold;
 }
 
 #titlediv {
-	height: 120px;
+	height: 70px;
 	text-align: center;
 }
 
 #authordiv {
-	height: 80px;
 	font-style: italic;
 	text-align: center;
 }
 
 .h3, h3 {
-	font-size: 26px;
+	font-size: 24px;
 }
 
 #descriptiondiv {
-	font-size: 26px;
+	font-size: 15px;
+	font-family: 'Abel';
 	text-align: justify;
-	height: 210px;
+	height: 130px;
 	overflow: hidden;
 }
 
 #lermaisdiv {
-	text-align: right;
+	font-family: 'coffeetea';
+	font-size: 14px;
 	text-decoration: underline;
-	color: black;
-	font-size: 20px;
-	padding-top: 20px;
+	text-align: right;
+	margin-top: 20px;
 }
 
 #likediv {
-	height: 80px;
-	font-size: 20px;
-	margin-top: 30px;
+	height: 75px;
+	font-size: 18px;
+	margin-top: 10px;
 	text-align: center;
 }
 
 .likebutton, .dislikebutton {
-	margin: 0px 35px;
+	margin: 0px 30px;
 }
 
 .glyphicon-thumbs-up {
 	color: green;
-	padding: 10px;
+	padding: 5px;
 }
 
 .glyphicon-thumbs-down {
 	color: red;
-	padding: 10px;
+	padding: 5px;
 }
 
 .btn-lg {
-	font-size: 20px;
+	font-size: 18px;
 	border-radius: 50px;
 	box-shadow: 2px 2px 8px #474747;
 }
 
 .btn.outline {
 	background: #dddddd;
-	padding: 4px 8px;
+	padding: 6px 8px;
 }
 
 .btn-primary.outline {
@@ -223,8 +269,8 @@ a:focus {
 .likecounter, .dislikecounter {
 	text-align: center;
 	display: inline-block;
-	padding: 5px 25px;
-	margin: 0px 37px;
+	padding: 5px 20px;
+	margin: 0px 33px;
 	border-radius: 50px;
 	box-shadow: 2px 2px 8px #474747;
 }
@@ -232,15 +278,15 @@ a:focus {
 
 #linksdiv {
 	text-align: center;
-	height: 90px;
-	padding: 40px 0px;
+	margin-bottom: 10px;
+	margin-top: 25px;
 }
 
 .wikipedia, .wook, .amazon, .ebay {
 	color: black;
 	text-decoration: underline;
 	padding: 0px 20px;
-	font-size: 20px;
+	font-size: 14px;
 }
 
 #endplaceholder {
@@ -251,8 +297,9 @@ a:focus {
 
 #footer {
 	border-top: 2px solid #1c1c1c;
-	padding: 10px 20px;
-	font-size: 16px;
+	margin-top: 25px;
+	padding-top: 6px;
+	font-size: 10px;
 	color: #ffbb00;
 	background-color: #2d2d2d;
 }

@@ -291,6 +291,21 @@ function Bookshelf() {
 
 	})
 
+	$("#clearBooks").click(function() {
+
+		for (i = 0; i < gBookshelfObject.shelf.queue.length; i++) {
+
+		gBookshelfObject.removeBook();
+
+		}
+
+		bookPlaceHolder1.render('book1')
+		bookPlaceHolder2.render('book2')
+		bookPlaceHolder3.render('book3')
+
+
+	})
+
 
 
 }
