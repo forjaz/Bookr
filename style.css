@@ -74,6 +74,7 @@ a:focus {
 
 .nav-pills > li > a {
 	border-radius: 0px;
+	color: black;
 }
 
 .nav-pills > li.active > a {
